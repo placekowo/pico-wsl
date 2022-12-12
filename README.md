@@ -123,4 +123,15 @@ the build we did earlier.
 
 We can now use VSCode to develop and build programs via WSL. Let's setup debugging now.
 
+## Setup debugging using Picoprobe in VS Code
+
+### Setup OpenOCD and GDB
+Installing OpenOCD and gdb-multiarch, add user to dialout, setup udev rules for openocd
+
+### Setup VSCode for debugging
+install marus25.cortex-debug
+
+### Setup USBIPD
+
+### Attaching the Picoprobe to WSL, using USBIPD
 
