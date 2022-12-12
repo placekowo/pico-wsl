@@ -95,7 +95,10 @@ Log out and back in to load the updated PATH variables, then in a Powershell win
 
 Then, in Debian:
 
-```code```
+```
+sudo apt install -y wget
+code
+```
 
 VSCode will automatically set itself up for remote development in WSL. Once this is done, exit VSCode, and in Debian:
 
