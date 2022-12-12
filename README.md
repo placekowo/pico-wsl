@@ -89,7 +89,7 @@ If you just want to build Pico programs, then we can stop here. However, I also 
 
 Install VSCode from [here](https://code.visualstudio.com/download), ensuring that we select the option to add VSCode to PATH.
 
-In a Powershell window:
+Log out and back in to load the updated PATH variables, then in a Powershell window:
 
 ```code --install-extension ms-vscode-remote.vscode-remote-extensionpack```
 
