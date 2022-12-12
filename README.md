@@ -59,10 +59,10 @@ I am putting everything Pico related into the ```~/pico``` directory.
 
 ### Installing the SDK
 
-```cd ~
+```sudo apt install -y git cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential python3
+cd ~
 mkdir pico
 cd pico
-sudo apt install git cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential python3
 git clone -b master --recursive https://github.com/raspberrypi/pico-sdk.git
 echo 'export PICO_SDK_PATH=~/pico/pico-sdk' >> ~/.bashrc
 source ~/.bashrc
