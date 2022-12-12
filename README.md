@@ -107,6 +107,20 @@ code --install-extension ms-vscode.cmake-tools
 code --install-extension ms-vscode.cpptools
 ```
 
+This will install the C/C++ and CMake extension in the local OS (this is your Windows install), however it will not install the extension in the remote VS Code server
+running on the WSL instance. When starting development on a Pico project, you should get a prompt to install these extensions into the remote server.
+
+We can test this out by building the blink example in VS Code. Go to the ```pico-examples``` directory, and open VS Code there:
+
+```
+cd ~/pico/pico-examples/
+code .
+```
+
+Configure the project using CMake when prompted, and select the arm-none-eabi kit. Once the project is configured, we can select a build target at the bottom.
+By default, it is configured to build all the examples. Click on ```[all]```, and select ```blink```. Now click on ```Build```. This should give the same result as
+the build we did earlier.
+
 We can now use VSCode to develop and build programs via WSL. Let's setup debugging now.
 
 
