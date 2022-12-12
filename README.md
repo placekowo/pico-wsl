@@ -59,7 +59,8 @@ I am putting everything Pico related into the ```~/pico``` directory.
 
 ### Installing the SDK
 
-```sudo apt install -y git cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential python3
+```
+sudo apt install -y git cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential python3
 cd ~
 mkdir pico
 cd pico
